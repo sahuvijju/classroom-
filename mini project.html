@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>mini project.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="SynEdit HTML exporter" />
+<style type="text/css">
+<!--
+body { color: #000000; background-color: #FFFFFF; }
+.cpp1-assembler { color: #0000FF; }
+.cpp1-character { color: #000000; }
+.cpp1-comment { color: #0078D7; font-style: italic; }
+.cpp1-float { color: #800080; }
+.cpp1-hexadecimal { color: #800080; }
+.cpp1-identifier { color: #000000; }
+.cpp1-illegalchar { color: #000000; }
+.cpp1-number { color: #800080; }
+.cpp1-octal { color: #800080; }
+.cpp1-preprocessor { color: #008000; }
+.cpp1-reservedword { color: #000000; font-weight: bold; }
+.cpp1-space { background-color: #FFFFFF; color: #000000; }
+.cpp1-string { color: #0000FF; font-weight: bold; }
+.cpp1-symbol { color: #FF0000; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<code><span style="font: 12pt Consolas;"><span class="cpp1-preprocessor">#include&lt;stdio.h&gt; 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> password </span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> id</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> age</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> name</span><span class="cpp1-symbol">[</span><span class="cpp1-number">16</span><span class="cpp1-symbol">];
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> class_name</span><span class="cpp1-symbol">[</span><span class="cpp1-number">4</span><span class="cpp1-symbol">];
+</span><span class="cpp1-space"> printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;welcome to lnct college\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 
+ 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Enter your  login ID: &quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%d&quot;</span><span class="cpp1-symbol">,&amp;</span><span class="cpp1-identifier">id</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Enter your class_name: &quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%s&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">class_name</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Enter your name: &quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%s&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Enter your age: &quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%d&quot;</span><span class="cpp1-symbol">,&amp;</span><span class="cpp1-identifier">age</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 
+ 	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;welcome to lnct user\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 	 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;enter your password\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%d&quot;</span><span class="cpp1-symbol">,&amp;</span><span class="cpp1-identifier">password</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;password is succesful\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">password</span><span class="cpp1-symbol">==</span><span class="cpp1-number">1234</span><span class="cpp1-symbol">)
+{
+</span><span class="cpp1-space"> 	
+ 	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;welcome to class room MCA\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">   	  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot; 1. press to 1 Monday \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">     	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. press to 2 Tuesday,  \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 		  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;3. press to 3 Wednesday\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 			printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. press to 4 Thursday \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 				printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. press to 5 Friday \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. press to 6 Saturday, \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. press to 7 Sunday\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Weekend time is class\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						scanf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%d&quot;</span><span class="cpp1-symbol">,&amp;</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						</span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">					 </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">					 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;1. data analysis using python (MAI-102) \n time=10:30 to 11:20 \n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 	</span><span class="cpp1-comment">//	printf(&quot;----------------------------------------------------------------------------&quot;);
+</span><span class="cpp1-space">					 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. library\n time 11:20 to 12:10\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot; 3. Operating System Lab (MAI-108)\ntime=12:10 to 1:50\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. lunch\n time=1:50 to 2:40\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. Introduction to AI DATA(MAI-105) \ntime=2:40to3:30\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 			printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. Soft Skills &amp; Entrepreneurship (MAI-104ti) \n time=3:30 to 4:15\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 			 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. computer Architecture(MAI-103) \n time=4:15 to 5:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 			  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;good day\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">					 		 			    </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> 							 </span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					 </span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					 </span><span class="cpp1-symbol">{</span><span class="cpp1-space">  
+ 					 </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">2</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space"> 					 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;1. principles &amp; programmming lab( MAI-107 )\ntime=10:30 to 12:10\n \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. Introduction to AI DATA(MAI-105) \ntime=12:10to1:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;3. Principles &amp; Programming in c (MAI-101)\n time=1:00 to 1:50\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		  	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. lunch\n time=1:50 to 2:40\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		    	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. data analysis using python (MAI-102) \n time=02:40 to 03:30 \n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		    		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. Soft Skills &amp; Entrepreneurship (MAI-104ti) \n time=3:30 to 4:15\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 		    	    	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. Tools &amp; Methodology of IT World (MAI-106)\ntime=4:15 to 5:00\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						                    	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;good day\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 						                    	  </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> 						
+ 					 	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					 	 </span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					 </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">					  
+						 </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">3</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">						 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;1. computer Architecture(MAI-103) \n time=10:30 to 11:20\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 			printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. Tools &amp; Methodology of IT World (MAI-106)\ntime=11:20 to 12:10\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 				printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;3.  Operating System Lab (MAI-108)\ntime=12:10 to 1:50\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. lunch\n time=1:50 to 2:40\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 						printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. data analysis using python (MAI-102) \n time=02:40 to 03:30 \n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 							 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. Principles &amp; Programming in c (MAI-101)\n time=3:30 to 4:15\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 						    	 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. Soft Skills &amp; Entrepreneurship (MAI-104ti) \n time=04:15 to 5:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 						    	  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;good day\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 						    	   </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> 							
+ 					 	    
+ 					 	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					 	 </span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					 </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">					  
+						 </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">						 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;1. principles &amp; programmming lab (MAI-107)\ntime=10:30 to 12:10 \n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 			printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. Introduction to AI DATA(MAI-105) \ntime=12:10 to 1:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 				printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;3. Soft Skills &amp; Entrepreneurship (MAI-104ti) \n time=01:00to 1:50\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 				printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. lunch\n time=1:50 to 2:40\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. computer Architecture(MAI-103) \n time=02:40 to 03:30\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					  printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. Principles &amp; Programming in c (MAI-101)\n time=03:30 to 4:15\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					  	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. Disaster Management(MAI-111)\n time =04:15 to 05:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					  		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;good day\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						 					  		 </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> 					 	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					  </span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					 </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">					  
+						 </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">5</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space"> 							printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;1. Mini Project (MAI-109)\n time 10:30 to 12:10\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 								printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;2. Introduction to AI DATA(MAI-105) \ntime=12:10 to 1:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;3. Principles &amp; Programming in c (MAI-101)\n time=1:00 to 01:50\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;4. lunch\n time=1:50 to 2:40\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 		printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;5. data analysis using python (MAI-102) \n time=02:40 to 03:30 \n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 			printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;6. computer Architecture(MAI-103) \n time=03:30 to 04:15\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 				printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;7. Tools &amp; Methodology of IT World (MAI-106)\ntime=4:15 to 5:00\n\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 									 				 </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space"> 							
+ 					 	
+ 					 	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					 	 </span><span class="cpp1-reservedword">switch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space"> 					 	 </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space"> 					 	 	</span><span class="cpp1-reservedword">default</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                             printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;better luck next  time\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">						   </span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> 					 	
+	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;\n\n\nStudent ID  :  %d\n&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">id</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Student name:  %s\n&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;class name  :  %s\n&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">class_name</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	getchar</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Student age :  %d\n&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">age</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;\n&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> 					 	 
+ 					
+ 
+ 	 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">else
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space"> 	printf</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;not class&quot;</span><span class="cpp1-symbol">);
+}
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+}
+</span></span>
+</code></pre>
+</body>
+</html>
